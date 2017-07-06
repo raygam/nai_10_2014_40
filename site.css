@@ -1,0 +1,217 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+
+.BUTTON_TEXT
+{font-family: Calibri; font-size: 11; font-weight: bold;
+    height: 25px;
+}
+	
+.MESSAGE_TEXT
+{font-family: Calibri; color: Red; font-size: 10; text-align: left; }
+
+.GRID_HEADER
+{font-family: Calibri; font-size: small; font-weight: bold ; font-style: normal; color: Black; text-align: left; background-color: White; }
+
+.GRID_DATA
+{ font-size: small; color: black;  font-family: Calibri;  background-color: White; text-align: left; font-weight: normal ; }
+
+.GRID_DATA_ALT
+{ font-size: small; color: black;  font-family: Calibri;  background-color: White; font-weight: normal ; text-align: left ; }
+
+.GRID_DATA_ALT2
+{ font-size: small; color: black;  font-family: Calibri;  background-color:#d3d3d3; font-weight: normal ; text-align: left ; }
+
+.DATA_LABEL
+{ font-family: calibri; 	font-size: small;  font-weight: bold ; font-style: normal;	color:black; text-align: left; }
+
+.DATA
+{ font-family: calibri; 	font-size: small; font-weight:normal; font-style: normal;	color:black; }
+
+.DATA_XS
+{ font-family: calibri; 	font-size:x-small; font-weight:normal; font-style: normal;	color:black; }
+
+.DATA_LABEL_XS
+{ font-family: calibri; 	font-size: x-small;  font-weight: bold ; font-style: normal;	color:black; text-align: left; }
+
+.SEARCH_XS
+{ font-family: calibri; 	font-size:x-small; font-weight:normal; font-style: normal;	color:#d3d3d3; }
+
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+body   
+{
+    background: #b6b7bc;
+    background-image:url(images/bg.jpeg);
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;    
+}
+
+.page
+{
+    width: 900px;
+    background-color: #fff;
+    margin: 20px auto 0px auto;
+    /*border: 1px solid #496077;*/
+    border: 2px solid #000000;
+}
+
+.header
+{
+    background-image:url(images/showcaseheader900x45.jpg);
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background: #4b6c9e;
+    width: 100%;
+}
+
+.wrapper
+{
+    width: 900px;
+}
+   
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #f9f9f9;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+.main
+{
+    width: 650px;
+    padding: 0px 12px;
+    margin: 10px 8px 8px 5px;
+    min-height: 20px;
+    border:0px solid black;
+}
+
+.leftCol
+{
+    background: Silver;
+    padding: 0px 0px;
+    margin: 0px 0px 0px 0px;
+    width: 200px;
+    min-height: 500px;
+}
+
+.footer
+{
+    color: #4e5766;
+    padding: 8px 0px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    line-height: normal;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.district_ddl
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    margin-bottom: 0px;
+    font-weight: 600;
+    text-align:center;
+}
+
+
+.title
+{
+    background-image:url(images/showcaseheader900x45.jpg);
+    display: block;
+    float: left;
+    text-align: left;
+    width: 100%;
+    height:50px;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}
+a:link, a:visited
+{
+    /*color: #034af3;*/
+    color: Black;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align:center;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+    width: 643px;
+}
+
+/* -----------------------------------------------------------------*/
+/* -----------------------------------------------------------------*/
